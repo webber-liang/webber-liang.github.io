@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>https://example.org/vim/</link>
+      <pubDate>Fri, 16 Feb 2024 19:36:23 +0800</pubDate>
+      <guid>https://example.org/vim/</guid>
+      <description>vim</description>
+    </item>
+    <item>
+      <title>hugo使用</title>
+      <link>https://example.org/hugo%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Fri, 16 Feb 2024 19:21:07 +0800</pubDate>
+      <guid>https://example.org/hugo%E4%BD%BF%E7%94%A8/</guid>
+      <description>克隆博客源仓库 # git clone https://github.com/xxxxxx/blogs.git 安装主题 # cd hugo-blog git submodule add https://github.com/alex-shpak/hugo-book.git themes/hugo-book vim hugo.toml 把theme=的内容改为主题名 theme = &amp;#39;hugo-book&amp;#39; 生成静态后进入public,推送到xxx.github.io # cd public git init -b main git remote add origin git@github.com:xxx/xxx.github.io.git git pull --rebase origin main git add . git commit -m &amp;#34;说明“ git push -f origin main 推送博客源仓库 # cd ../../ git add . git commit -m &amp;#39;说明&amp;#39; git push 参考如何用 GitHub Pages + Hugo 搭建个人博客</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://example.org/test/</link>
+      <pubDate>Fri, 16 Feb 2024 19:21:07 +0800</pubDate>
+      <guid>https://example.org/test/</guid>
+      <description>baidu</description>
+    </item>
+  </channel>
+</rss>
